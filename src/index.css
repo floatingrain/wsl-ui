@@ -1,8 +1,5 @@
 @import 'tailwindcss';
 
-/* Import distinctive fonts - JetBrains Mono for terminal feel, Outfit for modern UI */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
-
 @theme {
   --color-theme-bg-primary: var(--bg-primary);
   --color-theme-bg-secondary: var(--bg-secondary);
@@ -44,8 +41,8 @@
   --color-cyber-red: #ff3366;
   --color-cyber-purple: #a855f7;
 
-  --font-mono: 'JetBrains Mono', 'Consolas', 'NSimSun', 'MS Gothic', 'Noto Sans Mono CJK SC', 'Source Han Mono', monospace;
-  --font-ui: 'Outfit', system-ui, 'Microsoft YaHei', 'Meiryo', 'Noto Sans CJK SC', 'Source Han Sans', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Maple Mono NL NF CN', 'NSimSun';
+  --font-ui: system-ui, 'Segoe UI Variable', 'Microsoft YaHei UI';
 }
 
 @layer base {
